@@ -1,0 +1,29 @@
+h1 {
+    font-size: 1.8em;
+}
+section {
+    width: 400px;
+    height: 250px;
+    border: solid black 1px;
+    background-color: lightgrey;
+}
+h1, div:last-of-type {
+    display: flex;
+    justify-content: center;
+}
+div {
+    margin-bottom: 10px;
+}
+.pseudo, .password {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.checkbox {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+div:last-of-type>input {
+    margin: 20px 10px;
+    padding: 5px;
+    box-shadow: 2px 2px black;
+}

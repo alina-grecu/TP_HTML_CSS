@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+.contenu {
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+    width: 70%;
+}
+.liste {
+    border: 1px solid blue;
+    border-radius: 15px;
+    width: 20%;
+    height: 45%;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+
+p:nth-child(2n) {
+    text-align: right;
+    background-color: lightgrey;
+}
+p:nth-child(odd) {
+    text-align: left;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input:first-of-type {
+    margin-top: 10px;
+    height: 30px;
+    width: 65%;
+    border-radius: 10px;
+}
+input:last-of-type {
+    border-radius: 5px;
+    height: 40px;
+}
